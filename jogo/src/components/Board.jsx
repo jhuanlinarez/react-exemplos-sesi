@@ -21,6 +21,7 @@ const Board = () => {
   };
 
   return (
+    // crieiuma constante chamada isBoardFull para criar a possibilidade de um empate como resultado
     <div>
       <div className="status">
         Status:{" "}
@@ -51,6 +52,8 @@ const Board = () => {
           </div>
         </div>
       )}
+
+      {/* aparecer o botão de reiniciar o jogo apenas depois de alguém ganhar ou empatar */}
       {(winner || isBoardFull) && (
         <div>
           <p>Para reiniciar o jogo, clique no botão abaixo:</p>
