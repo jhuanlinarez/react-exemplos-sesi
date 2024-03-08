@@ -6,7 +6,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: #000;
+  color: #007bff;
   font-family: Helvetica;
   text-align: center;
 }
@@ -15,7 +16,7 @@ html {
 .square {
   width: 100px;
   height: 100px;
-  background-color: #ddd;
+  background-color: #007bff;
   border: 1px solid #ccc;
   font-size: 32px;
   font-weight: bold;
@@ -26,7 +27,7 @@ html {
 
 /* Estilo para o vencedor */
 .winner {
-  background-color: #ffcc00;
+  background-color: #007bff;
 }
 
 /* Estilo para o status do jogo */
@@ -34,7 +35,7 @@ html {
   margin: 20px 0;
   text-align: center;
   font-size: 24px;
-  color: #333;
+  color: #fff;
 }
 
 /* Estilo para o botão de reiniciar */

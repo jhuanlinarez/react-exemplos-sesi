@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+.winning-line {
+  position: absolute;
+  background-color: #fff;
+}
+
+.winning-line[data-direction='horizontal'] {
+  width: 100%;
+  height: 5px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.winning-line[data-direction='vertical'] {
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.winning-line[data-direction='diagonal'] {
+  width: 100%;
+  height: 5px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.game-title {
+  color: white !important; /* Altere para a cor desejada */
+}
